@@ -57,23 +57,21 @@
         </tr>
       </thead>
       <tbody class="text-gray-700">
-        <% unless @orders.nil? %>
-          <% @orders.each do |order| %>
-            <tr>
-              <td class="px-6 py-4 border-b border-gray-200">
-                <%= link_to order.id, admin_order_path(order), class: "underline" %>
-              </td>
-              <td class="px-6 py-4 border-b border-gray-200">
-                <%= order.customer_email %>
-              </td>
-              <td class="px-6 py-4 border-b border-gray-200">
-                <%= order.created_at.strftime("%B %d, %Y %H:%M") %>
-              </td>
-              <td class="px-6 py-4 border-b border-gray-200">
-                <%= (order.total/100.0).to_s %>
-              </td>
-            </tr>
-          <% end %>
+        <% @orders.each do |order| %>
+          <tr>
+            <td class="px-6 py-4 border-b border-gray-200">
+              <%= link_to order.id, admin_order_path(order), class: "underline" %>
+            </td>
+            <td class="px-6 py-4 border-b border-gray-200">
+              <%= order.customer_email %>
+            </td>
+            <td class="px-6 py-4 border-b border-gray-200">
+              <%= order.created_at.strftime("%B %d, %Y %H:%M") %>
+            </td>
+            <td class="px-6 py-4 border-b border-gray-200">
+              <%= (order.total/100.0).to_s %>
+            </td>
+          </tr>
         <% end %>
       </tbody>
       </table>
