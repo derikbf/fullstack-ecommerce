@@ -77,3 +77,4 @@ gem "font-awesome-sass", "~> 6.5.1"
 gem 'orm_adapter'
 
 gem 'chart-js-rails', '~> 0.1.7'
+gem "stripe", "~> 10.11"
