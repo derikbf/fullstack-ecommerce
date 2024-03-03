@@ -8,6 +8,9 @@ gem "rails", "~> 7.1.3"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+# Use pg as the database for Active Record
+gem "pg"
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
 
@@ -78,3 +81,4 @@ gem 'orm_adapter'
 
 gem 'chart-js-rails', '~> 0.1.7'
 gem "stripe", "~> 10.11"
+gem "pagy", "~> 6.2"

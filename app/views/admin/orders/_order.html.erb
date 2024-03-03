@@ -20,9 +20,9 @@
   </p>
 
   <% if order.order_products.any? %>
-    <strong class="block font-medium mb-1">Product:</strong>
+    <strong class="block font-medium mb-1">Products:</strong>
     <% order.order_products.each do |op| %>
-      <%= op.product.name %>
+      <%= op.product.name %> 
       <%= op.size %>
       <%= op.quantity %>
     <% end %>

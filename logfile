@@ -1,0 +1,23 @@
+2024-03-03 13:33:06.761 -03 [307526] LOG:  starting PostgreSQL 12.3 on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0, 64-bit
+2024-03-03 13:33:06.761 -03 [307526] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2024-03-03 13:33:06.776 -03 [307526] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2024-03-03 13:33:06.805 -03 [307527] LOG:  database system was shut down at 2024-03-03 13:32:52 -03
+2024-03-03 13:33:06.823 -03 [307526] LOG:  database system is ready to accept connections
+2024-03-03 13:39:19.878 -03 [331640] FATAL:  role "derik" does not exist
+2024-03-03 13:39:19.980 -03 [331641] FATAL:  role "derik" does not exist
+2024-03-03 13:39:31.920 -03 [332985] FATAL:  role "derik" does not exist
+2024-03-03 13:39:32.021 -03 [332986] FATAL:  role "derik" does not exist
+2024-03-03 13:40:05.936 -03 [334415] FATAL:  role "derik" does not exist
+2024-03-03 13:40:23.928 -03 [336936] FATAL:  role "derik" does not exist
+2024-03-03 13:42:11.463 -03 [339706] FATAL:  role "derik" does not exist
+2024-03-03 13:45:37.190 -03 [346050] FATAL:  role "derik" does not exist
+2024-03-03 13:45:37.292 -03 [346051] FATAL:  role "derik" does not exist
+2024-03-03 13:45:55.987 -03 [347748] FATAL:  role "derik" does not exist
+2024-03-03 13:45:56.090 -03 [347749] FATAL:  role "derik" does not exist
+2024-03-03 13:49:50.826 -03 [356940] FATAL:  role "derik" does not exist
+2024-03-03 13:49:50.928 -03 [356941] FATAL:  role "derik" does not exist
+2024-03-03 13:50:56.466 -03 [363115] FATAL:  role "derik" does not exist
+2024-03-03 13:50:56.568 -03 [363116] FATAL:  role "derik" does not exist
+2024-03-03 14:06:01.794 -03 [378120] ERROR:  update or delete on table "products" violates foreign key constraint "fk_rails_cfc800c26b" on table "stocks"
+2024-03-03 14:06:01.794 -03 [378120] DETAIL:  Key (id)=(4) is still referenced from table "stocks".
+2024-03-03 14:06:01.794 -03 [378120] STATEMENT:  DELETE FROM "products"

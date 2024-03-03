@@ -1,24 +1,14 @@
-# README
+# About - Fullstack E-Commerce: Ruby on Rails 7, Hotwire, Tailwind, Stripe, PostgreSQL - Course Conner Jensen
+This project is the complete FullStack Ecommerce Ruby on Rails 7, Hotwire, Tailwind, Stripe, PostgreSQL - 
+## Conner Jensen - YouTube
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![FullEcommerce-Ruby-on-Rails](https://uploaddeimagens.com.br/images/004/751/024/original/conner.png)
 
-Things you may want to cover:
+![FullEcommerce-Ruby-on-Rails](https://uploaddeimagens.com.br/images/004/751/024/original/conner.png)
 
-* Ruby version
+## Technology Stack
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- ruby on rails ``7.1.3``
+- ruby ``3.1.2``
+- postgresql 
+- Tailwind CSS
